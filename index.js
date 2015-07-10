@@ -1,7 +1,7 @@
 "use strict";
 
 // A Quick
-var assign = Object.assign || require('./src/utils/object.assign.polyfill');
+var assign = Object.assign || require('./src/polyfills/object.assign.polyfill');
 
 var commandLineArgumentsResolver = require('./src/resolvers/CommandLineArgumentsResolver');
 var environmentVariablesResolver = require('./src/resolvers/EnvironmentVariablesResolver');
