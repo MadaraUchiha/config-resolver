@@ -16,7 +16,7 @@ module.exports.resolve = function() {
     if (args.length === 0) {
         args = [environmentVariablesResolver, commandLineArgumentsResolver];
     }
-    var objects = args.map(function(resolver) { return resolver.call() });
+    var objects = args.map(function(resolver) { return resolver.call(); });
     return assign.apply(null, objects);
 };
 

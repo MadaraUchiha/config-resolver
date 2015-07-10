@@ -18,5 +18,10 @@
   "homepage": "https://github.com/MadaraUchiha/config-resolver#readme",
   "dependencies": {
     "minimist": "^1.1.1"
-  }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2"
+  },
+  "jshintConfig": ".jshintrc"
 }
