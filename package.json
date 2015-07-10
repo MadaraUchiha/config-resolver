@@ -1,0 +1,22 @@
+{
+  "name": "config-resolver",
+  "version": "0.0.1",
+  "description": "A small, unopinionated configuration resolver for node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadaraUchiha/config-resolver.git"
+  },
+  "author": "Madara Uchiha <me@madara.ninja>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadaraUchiha/config-resolver/issues"
+  },
+  "homepage": "https://github.com/MadaraUchiha/config-resolver#readme",
+  "dependencies": {
+    "minimist": "^1.1.1"
+  }
+}
