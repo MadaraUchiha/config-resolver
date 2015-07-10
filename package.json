@@ -1,6 +1,6 @@
 {
   "name": "config-resolver",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A small, unopinionated configuration resolver for node apps",
   "main": "index.js",
   "scripts": {
