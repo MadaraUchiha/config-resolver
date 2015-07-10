@@ -19,5 +19,3 @@ module.exports.resolve = function() {
     var objects = args.map(function(resolver) { return resolver.call(); });
     return assign.apply(null, objects);
 };
-
-console.log(module.exports.resolve());
